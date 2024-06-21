@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .formbody {
+    background-color: #ffffff;
+    font-family: sans-serif;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+    align-items: start;
+    padding-top: 30px; /* Add some padding to the top if needed */
+  }
+  
+  .inputfield-container {
+ 
+    display: flex;
+    flex-direction:column; /* Align input fields vertically */
+    align-items:center; /* Center align the input fields horizontally */
+    background-color: #ffffff;
+  }
+  
+  .inputfield {
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+    background-color: rgb(228, 228, 228);
+    margin-top: 10px; /* Adjust the margin to control spacing between input fields */
+    padding: 10px; /* Add some padding for better appearance */
+    text-align: center;
+
+  }
+  button{
+width: 200px;
+height: 40px;
+border-radius: 10px;
+background-color: #f75c5c;
+margin-left: 15%;
+border:none;
+font-size: larger;
+  }
+  .results {
+    margin-top: 20px;
+  }
+  
+  .results h2 {
+    margin-bottom: 10px;
+  }
+  
+  .results ul {
+    list-style-type: none;
+    padding: 0px;
+  }
+  
+  .results li {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .results li:last-child {
+    margin-bottom: 0;
+  }
+  .Selector{
+    width: 400px;
+    height:auto;
+    padding:10px;
+    border-radius: 10px;
+  }
